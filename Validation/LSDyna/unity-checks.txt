@@ -1,0 +1,34 @@
+PASS: Scientific mode rejects the analytic fixture.
+PASS: Analytic fixture contains eight nodes and 51 physical time samples.
+PASS: Fixture provenance explicitly identifies an analytical solution.
+PASS: Final displacement matches gravity minus Coulomb friction on a 30 degree incline.
+PASS: Final exported velocity matches the analytical acceleration.
+PASS: Load displays the first state and pauses.
+PASS: Intermediate position interpolates adjacent exported states.
+PASS: Pause freezes both data clock and geometry.
+PASS: Stop restores the first state and stays paused.
+PASS: A large tick reaches the last state once, without extrapolation or looping.
+PASS: The final position remains the exact exported sample.
+PASS: Velocity display uses solver seconds, independent of render clock.
+PASS: Playback creates no second physics system or collision corrections.
+PASS: Missing data is rejected.
+PASS: A failed reload removes the old result rather than displaying stale geometry.
+PASS: Duplicate node IDs are rejected.
+PASS: Non-increasing solver timestamps are rejected.
+PASS: Frame paths cannot escape the dataset directory.
+PASS: Nonuniform timestamps retain double precision and select the correct interval.
+PASS: Finite but altered frame values fail the recorded integrity checksum.
+PASS: Nonfinite binary positions are rejected before rendering.
+PASS: Truncated binary frames are rejected.
+PASS: Verification scene exported three review images (separate visual review required).
+PASS: Original Hunnedalen desktop scene selects the strict data mode.
+PASS: Original scene creates no procedural late-stage landslide in strict mode.
+PASS: Missing genuine results show a blocked status and no fake result.
+PASS: Missing data does not advance the scientific clock.
+PASS: Legacy road-warning timing is disabled in scientific playback.
+PASS: Legacy road-warning timing is disabled in scientific playback.
+PASS: Legacy road-warning timing is disabled in scientific playback.
+PASS: Legacy road-warning timing is disabled in scientific playback.
+PASS: Original scene produces no managed exceptions during strict-mode startup.
+PASS: Rock data is not exposed as a water depth or velocity field.
+These checks validate data transport, playback and the analytical fixture; they do not validate a real LS-DYNA slope model.

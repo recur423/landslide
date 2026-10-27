@@ -1,0 +1,1296 @@
+{
+  "schemaVersion": 1,
+  "status": "diagnostic-only",
+  "warnings": [
+    "No solver energy history was supplied; conservation and energy balance are not verified."
+  ],
+  "gravityMPerS2": [
+    0.0,
+    -9.81,
+    0.0
+  ],
+  "residualWarningThresholdM": 0.05,
+  "maxPositionQuantizationErrorM": 8.976499877416489e-07,
+  "maxPositionVelocityResidualM": 1.3832901281033216e-06,
+  "frameDiagnostics": [
+    {
+      "timeSeconds": 0.0,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        0.2500000074505806,
+        10.43301248550415,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "kineticEnergyJ": 0.0,
+      "gravitationalPotentialEnergyJ": 1023478.5248279572,
+      "mechanicalEnergyJ": 1023478.5248279572,
+      "maxSpeedMPerS": 0.0
+    },
+    {
+      "timeSeconds": 0.1,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        0.2602030336856842,
+        10.427122116088867,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        2040.6046509742737,
+        -1178.1436204910278,
+        0.0
+      ],
+      "kineticEnergyJ": 277.60448660407724,
+      "gravitationalPotentialEnergyJ": 1022900.6795883179,
+      "mechanicalEnergyJ": 1023178.284074922,
+      "maxSpeedMPerS": 0.23562872770699128
+    },
+    {
+      "timeSeconds": 0.2,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        0.29081209003925323,
+        10.409450054168701,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        4081.2093019485474,
+        -2356.2872409820557,
+        0.0
+      ],
+      "kineticEnergyJ": 1110.417946416309,
+      "gravitationalPotentialEnergyJ": 1021167.0503139496,
+      "mechanicalEnergyJ": 1022277.4682603659,
+      "maxSpeedMPerS": 0.47125745541398256
+    },
+    {
+      "timeSeconds": 0.30000000000000004,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        0.3418272063136101,
+        10.379996299743652,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        6121.813654899597,
+        -3534.4308614730835,
+        0.0
+      ],
+      "kineticEnergyJ": 2498.4401969924265,
+      "gravitationalPotentialEnergyJ": 1018277.6370048523,
+      "mechanicalEnergyJ": 1020776.0772018448,
+      "maxSpeedMPerS": 0.7068861573114056
+    },
+    {
+      "timeSeconds": 0.4,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        0.41324836015701294,
+        10.338761329650879,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        8162.418603897095,
+        -4712.574481964111,
+        0.0
+      ],
+      "kineticEnergyJ": 4441.671785665236,
+      "gravitationalPotentialEnergyJ": 1014232.4864387512,
+      "mechanicalEnergyJ": 1018674.1582244164,
+      "maxSpeedMPerS": 0.9425149108279651
+    },
+    {
+      "timeSeconds": 0.5,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        0.5050755999982357,
+        10.285744667053223,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        10203.022956848145,
+        -5890.718102455139,
+        0.0
+      ],
+      "kineticEnergyJ": 6940.111861028146,
+      "gravitationalPotentialEnergyJ": 1009031.5518379211,
+      "mechanicalEnergyJ": 1015971.6636989493,
+      "maxSpeedMPerS": 1.1781436127253881
+    },
+    {
+      "timeSeconds": 0.6000000000000001,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        0.6173088073846884,
+        10.220946788787842,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        12243.627309799194,
+        -7068.861722946167,
+        0.0
+      ],
+      "kineticEnergyJ": 9993.760787969706,
+      "gravitationalPotentialEnergyJ": 1002674.8799800874,
+      "mechanicalEnergyJ": 1012668.6407680571,
+      "maxSpeedMPerS": 1.4137723146228112
+    },
+    {
+      "timeSeconds": 0.7000000000000001,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        0.7499480992555618,
+        10.144367694854736,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        14284.231662750244,
+        -8247.005343437195,
+        0.0
+      ],
+      "kineticEnergyJ": 13602.618566489913,
+      "gravitationalPotentialEnergyJ": 995162.4708652496,
+      "mechanicalEnergyJ": 1008765.0894317395,
+      "maxSpeedMPerS": 1.6494010165202344
+    },
+    {
+      "timeSeconds": 0.8,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        0.902993481606245,
+        10.056006908416748,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        16324.83720779419,
+        -9425.148963928223,
+        0.0
+      ],
+      "kineticEnergyJ": 17766.687142660943,
+      "gravitationalPotentialEnergyJ": 986494.277715683,
+      "mechanicalEnergyJ": 1004260.9648583439,
+      "maxSpeedMPerS": 1.8850298216559302
+    },
+    {
+      "timeSeconds": 0.9,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        1.0764448903501034,
+        9.955864429473877,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        18365.44156074524,
+        -10603.291988372803,
+        0.0
+      ],
+      "kineticEnergyJ": 22485.96223559197,
+      "gravitationalPotentialEnergyJ": 976670.3005313873,
+      "mechanicalEnergyJ": 999156.2627669793,
+      "maxSpeedMPerS": 2.1206584937510318
+    },
+    {
+      "timeSeconds": 1.0,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        1.2703023217618465,
+        9.843940734863281,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        20406.04591369629,
+        -11781.436204910278,
+        0.0
+      ],
+      "kineticEnergyJ": 27760.447444112586,
+      "gravitationalPotentialEnergyJ": 965690.586090088,
+      "mechanicalEnergyJ": 993451.0335342006,
+      "maxSpeedMPerS": 2.3562872254507763
+    },
+    {
+      "timeSeconds": 1.1,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        1.4845657870173454,
+        9.720235824584961,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        22446.651458740234,
+        -12959.579229354858,
+        0.0
+      ],
+      "kineticEnergyJ": 33590.142775604545,
+      "gravitationalPotentialEnergyJ": 953555.1343917847,
+      "mechanicalEnergyJ": 987145.2771673892,
+      "maxSpeedMPerS": 2.5919160007841513
+    },
+    {
+      "timeSeconds": 1.2000000000000002,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        1.7192352563142776,
+        9.584749221801758,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        24487.25461959839,
+        -14137.723445892334,
+        0.0
+      ],
+      "kineticEnergyJ": 39975.043151878825,
+      "gravitationalPotentialEnergyJ": 940263.8986587526,
+      "mechanicalEnergyJ": 980238.9418106314,
+      "maxSpeedMPerS": 2.8275446292456223
+    },
+    {
+      "timeSeconds": 1.3,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        1.9743109196424484,
+        9.43748140335083,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        26527.860164642334,
+        -15315.866470336914,
+        0.0
+      ],
+      "kineticEnergyJ": 46915.156532600406,
+      "gravitationalPotentialEnergyJ": 925816.9256687164,
+      "mechanicalEnergyJ": 972732.0822013168,
+      "maxSpeedMPerS": 3.0631734045789965
+    },
+    {
+      "timeSeconds": 1.4000000000000001,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        2.2497925758361816,
+        9.27843189239502,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        28568.46332550049,
+        -16494.01068687439,
+        0.0
+      ],
+      "kineticEnergyJ": 54410.47426595965,
+      "gravitationalPotentialEnergyJ": 910214.1686439514,
+      "mechanicalEnergyJ": 964624.6429099111,
+      "maxSpeedMPerS": 3.298802033040469
+    },
+    {
+      "timeSeconds": 1.5,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        2.5456801652908325,
+        9.107601165771484,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        30609.068870544434,
+        -17672.15371131897,
+        0.0
+      ],
+      "kineticEnergyJ": 62461.005695910855,
+      "gravitationalPotentialEnergyJ": 893455.6743621826,
+      "mechanicalEnergyJ": 955916.6800580935,
+      "maxSpeedMPerS": 3.534430808373842
+    },
+    {
+      "timeSeconds": 1.6,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        2.861973851919174,
+        8.924988865852356,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        32649.67441558838,
+        -18850.297927856445,
+        0.0
+      ],
+      "kineticEnergyJ": 71066.74857064377,
+      "gravitationalPotentialEnergyJ": 875541.4077401161,
+      "mechanicalEnergyJ": 946608.15631076,
+      "maxSpeedMPerS": 3.7700596433118605
+    },
+    {
+      "timeSeconds": 1.7000000000000002,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        3.198673725128174,
+        8.730595111846924,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        34690.27757644653,
+        -20028.440952301025,
+        0.0
+      ],
+      "kineticEnergyJ": 80227.6902655359,
+      "gravitationalPotentialEnergyJ": 856471.3804721832,
+      "mechanicalEnergyJ": 936699.0707377191,
+      "maxSpeedMPerS": 4.005688212168688
+    },
+    {
+      "timeSeconds": 1.8,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        3.555779457092285,
+        8.524420142173767,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        36730.88312149048,
+        -21206.583976745605,
+        0.0
+      ],
+      "kineticEnergyJ": 89943.84894236788,
+      "gravitationalPotentialEnergyJ": 836245.6159472466,
+      "mechanicalEnergyJ": 926189.4648896144,
+      "maxSpeedMPerS": 4.2413169875020635
+    },
+    {
+      "timeSeconds": 1.9000000000000001,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        3.933291435241699,
+        8.306463599205017,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        38771.488666534424,
+        -22384.729385375977,
+        0.0
+      ],
+      "kineticEnergyJ": 100215.2221537861,
+      "gravitationalPotentialEnergyJ": 814864.0790820122,
+      "mechanicalEnergyJ": 915079.3012357983,
+      "maxSpeedMPerS": 4.476945882044725
+    },
+    {
+      "timeSeconds": 2.0,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        4.331209182739258,
+        8.076725482940674,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        40812.09182739258,
+        -23562.872409820557,
+        0.0
+      ],
+      "kineticEnergyJ": 111041.78977645034,
+      "gravitationalPotentialEnergyJ": 792326.7698764801,
+      "mechanicalEnergyJ": 903368.5596529305,
+      "maxSpeedMPerS": 4.712574450901553
+    },
+    {
+      "timeSeconds": 2.1,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        4.749533176422119,
+        7.835206151008606,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        42852.69737243652,
+        -24741.015434265137,
+        0.0
+      ],
+      "kineticEnergyJ": 122423.5758406087,
+      "gravitationalPotentialEnergyJ": 768633.7234139442,
+      "mechanicalEnergyJ": 891057.2992545529,
+      "maxSpeedMPerS": 4.948203226234927
+    },
+    {
+      "timeSeconds": 2.2,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        5.188263177871704,
+        7.581905007362366,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        44893.30291748047,
+        -25919.158458709717,
+        0.0
+      ],
+      "kineticEnergyJ": 134360.57110241818,
+      "gravitationalPotentialEnergyJ": 743784.8812222481,
+      "mechanicalEnergyJ": 878145.4523246663,
+      "maxSpeedMPerS": 5.183832001568303
+    },
+    {
+      "timeSeconds": 2.3000000000000003,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        5.647399187088013,
+        7.31682288646698,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        46933.90369415283,
+        -27097.303867340088,
+        0.0
+      ],
+      "kineticEnergyJ": 146852.75964254886,
+      "gravitationalPotentialEnergyJ": 717780.3251624107,
+      "mechanicalEnergyJ": 864633.0848049596,
+      "maxSpeedMPerS": 5.419460483157874
+    },
+    {
+      "timeSeconds": 2.4000000000000004,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        6.126941204071045,
+        7.039959192276001,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        48974.50923919678,
+        -28275.446891784668,
+        0.0
+      ],
+      "kineticEnergyJ": 159900.1726075153,
+      "gravitationalPotentialEnergyJ": 690619.9967622757,
+      "mechanicalEnergyJ": 850520.1693697909,
+      "maxSpeedMPerS": 5.655089258491245
+    },
+    {
+      "timeSeconds": 2.5,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        6.626889228820801,
+        6.751313924789429,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        51015.11478424072,
+        -29453.589916229248,
+        0.0
+      ],
+      "kineticEnergyJ": 173502.79477013287,
+      "gravitationalPotentialEnergyJ": 662303.896021843,
+      "mechanicalEnergyJ": 835806.6907919758,
+      "maxSpeedMPerS": 5.890718033824618
+    },
+    {
+      "timeSeconds": 2.6,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        7.147243618965149,
+        6.450887441635132,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        53055.72032928467,
+        -30631.732940673828,
+        0.0
+      ],
+      "kineticEnergyJ": 187660.62613040162,
+      "gravitationalPotentialEnergyJ": 632832.0580244064,
+      "mechanicalEnergyJ": 820492.684154808,
+      "maxSpeedMPerS": 6.126346809157993
+    },
+    {
+      "timeSeconds": 2.7,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        7.688004016876221,
+        6.138679265975952,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        55096.32587432861,
+        -31809.8783493042,
+        0.0
+      ],
+      "kineticEnergyJ": 202373.67427238723,
+      "gravitationalPotentialEnergyJ": 602204.4359922409,
+      "mechanicalEnergyJ": 804578.1102646282,
+      "maxSpeedMPerS": 6.361975703700655
+    },
+    {
+      "timeSeconds": 2.8000000000000003,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        8.249170064926147,
+        5.814689874649048,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        57136.92665100098,
+        -32988.02137374878,
+        0.0
+      ],
+      "kineticEnergyJ": 217641.8970638386,
+      "gravitationalPotentialEnergyJ": 570421.0767030716,
+      "mechanicalEnergyJ": 788062.9737669101,
+      "maxSpeedMPerS": 6.597604066080938
+    },
+    {
+      "timeSeconds": 2.9000000000000004,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        8.830742359161377,
+        5.478918790817261,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        59177.53219604492,
+        -34166.16439819336,
+        0.0
+      ],
+      "kineticEnergyJ": 233465.35532491544,
+      "gravitationalPotentialEnergyJ": 537481.9333791733,
+      "mechanicalEnergyJ": 770947.2887040887,
+      "maxSpeedMPerS": 6.83323284141431
+    },
+    {
+      "timeSeconds": 3.0,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        9.43272066116333,
+        5.131366491317749,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        61218.13774108887,
+        -35344.30742263794,
+        0.0
+      ],
+      "kineticEnergyJ": 249844.02278364342,
+      "gravitationalPotentialEnergyJ": 503387.0527982712,
+      "mechanicalEnergyJ": 753231.0755819146,
+      "maxSpeedMPerS": 7.068861616747684
+    },
+    {
+      "timeSeconds": 3.1,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        10.055104732513428,
+        4.772032558917999,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        63258.74328613281,
+        -36522.45283126831,
+        0.0
+      ],
+      "kineticEnergyJ": 266777.90814765356,
+      "gravitationalPotentialEnergyJ": 468136.3940298557,
+      "mechanicalEnergyJ": 734914.3021775093,
+      "maxSpeedMPerS": 7.304490511290347
+    },
+    {
+      "timeSeconds": 3.2,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        10.697895526885986,
+        4.400917291641235,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        65299.34883117676,
+        -37700.59585571289,
+        0.0
+      ],
+      "kineticEnergyJ": 284266.9942825751,
+      "gravitationalPotentialEnergyJ": 431729.9863100052,
+      "mechanicalEnergyJ": 715996.9805925803,
+      "maxSpeedMPerS": 7.540119286623721
+    },
+    {
+      "timeSeconds": 3.3000000000000003,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        11.36109209060669,
+        4.018020749092102,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        67339.94960784912,
+        -38878.73888015747,
+        0.0
+      ],
+      "kineticEnergyJ": 302311.25750495633,
+      "gravitationalPotentialEnergyJ": 394167.8354859352,
+      "mechanicalEnergyJ": 696479.0929908915,
+      "maxSpeedMPerS": 7.7757476490040025
+    },
+    {
+      "timeSeconds": 3.4000000000000004,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        12.044694423675537,
+        3.6233425736427307,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        69380.55515289307,
+        -40056.88190460205,
+        0.0
+      ],
+      "kineticEnergyJ": 320910.7610621436,
+      "gravitationalPotentialEnergyJ": 355449.9064743519,
+      "mechanicalEnergyJ": 676360.6675364955,
+      "maxSpeedMPerS": 8.011376424337376
+    },
+    {
+      "timeSeconds": 3.5,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        12.748703479766846,
+        3.2168829441070557,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        71421.16069793701,
+        -41235.02731323242,
+        0.0
+      ],
+      "kineticEnergyJ": 340065.48364817834,
+      "gravitationalPotentialEnergyJ": 315576.21681690216,
+      "mechanicalEnergyJ": 655641.7004650806,
+      "maxSpeedMPerS": 8.24700531888004
+    },
+    {
+      "timeSeconds": 3.6,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        13.47311782836914,
+        2.798642009496689,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        73461.76624298096,
+        -42413.16795349121,
+        0.0
+      ],
+      "kineticEnergyJ": 359775.39576947154,
+      "gravitationalPotentialEnergyJ": 274546.7811316252,
+      "mechanicalEnergyJ": 634322.1769010967,
+      "maxSpeedMPerS": 8.482633975004127
+    },
+    {
+      "timeSeconds": 3.7,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        14.217938899993896,
+        2.368619680404663,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        75502.3717880249,
+        -43591.31336212158,
+        0.0
+      ],
+      "kineticEnergyJ": 380040.5373125909,
+      "gravitationalPotentialEnergyJ": 232361.59064769745,
+      "mechanicalEnergyJ": 612402.1279602884,
+      "maxSpeedMPerS": 8.718262869546788
+    },
+    {
+      "timeSeconds": 3.8000000000000003,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        14.98316502571106,
+        1.9268157631158829,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        77542.97733306885,
+        -44769.45877075195,
+        0.0
+      ],
+      "kineticEnergyJ": 400860.8886151444,
+      "gravitationalPotentialEnergyJ": 189020.6263616681,
+      "mechanicalEnergyJ": 589881.5149768125,
+      "maxSpeedMPerS": 8.95389176408945
+    },
+    {
+      "timeSeconds": 3.9000000000000004,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        15.768797874450684,
+        1.4732304513454437,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        79583.57810974121,
+        -45947.59941101074,
+        0.0
+      ],
+      "kineticEnergyJ": 422236.38981919974,
+      "gravitationalPotentialEnergyJ": 144523.90727698803,
+      "mechanicalEnergyJ": 566760.2970961877,
+      "maxSpeedMPerS": 9.189520007260441
+    },
+    {
+      "timeSeconds": 4.0,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        16.57483720779419,
+        1.0078637637197971,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        81624.18365478516,
+        -47125.74481964111,
+        0.0
+      ],
+      "kineticEnergyJ": 444167.1591058014,
+      "gravitationalPotentialEnergyJ": 98871.4352209121,
+      "mechanicalEnergyJ": 543038.5943267135,
+      "maxSpeedMPerS": 9.425148901803105
+    },
+    {
+      "timeSeconds": 4.1000000000000005,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        17.401281356811523,
+        0.5307155847549438,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        83664.7891998291,
+        -48303.890228271484,
+        0.0
+      ],
+      "kineticEnergyJ": 466653.1381518371,
+      "gravitationalPotentialEnergyJ": 52063.19886446,
+      "mechanicalEnergyJ": 518716.3370162971,
+      "maxSpeedMPerS": 9.66077779634577
+    },
+    {
+      "timeSeconds": 4.2,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        18.248132705688477,
+        0.04178598616272211,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        85705.39474487305,
+        -49482.03086853027,
+        0.0
+      ],
+      "kineticEnergyJ": 489694.3033624348,
+      "gravitationalPotentialEnergyJ": 4099.205242563043,
+      "mechanicalEnergyJ": 493793.5086049978,
+      "maxSpeedMPerS": 9.896406452469854
+    },
+    {
+      "timeSeconds": 4.3,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        19.115389823913574,
+        -0.4589250460267067,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        87746.00028991699,
+        -50660.176277160645,
+        0.0
+      ],
+      "kineticEnergyJ": 513290.7013655552,
+      "gravitationalPotentialEnergyJ": -45020.54701521993,
+      "mechanicalEnergyJ": 468270.15435033524,
+      "maxSpeedMPerS": 10.132035347012517
+    },
+    {
+      "timeSeconds": 4.4,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        20.003052711486816,
+        -0.9714175313711166,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        89786.60583496094,
+        -51838.31691741943,
+        0.0
+      ],
+      "kineticEnergyJ": 537442.2844096727,
+      "gravitationalPotentialEnergyJ": -95296.05982750656,
+      "mechanicalEnergyJ": 442146.2245821662,
+      "maxSpeedMPerS": 10.367664003136605
+    },
+    {
+      "timeSeconds": 4.5,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        20.911121368408203,
+        -1.495691403746605,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        91827.21138000488,
+        -53016.462326049805,
+        0.0
+      ],
+      "kineticEnergyJ": 562149.1013698778,
+      "gravitationalPotentialEnergyJ": -146727.32670754194,
+      "mechanicalEnergyJ": 415421.77466233587,
+      "maxSpeedMPerS": 10.603292897679266
+    },
+    {
+      "timeSeconds": 4.6000000000000005,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        21.83959674835205,
+        -2.031746804714203,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        93867.80738830566,
+        -54194.607734680176,
+        0.0
+      ],
+      "kineticEnergyJ": 587411.0385701954,
+      "gravitationalPotentialEnergyJ": -199314.3615424633,
+      "mechanicalEnergyJ": 388096.67702773213,
+      "maxSpeedMPerS": 10.838920966315747
+    },
+    {
+      "timeSeconds": 4.7,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        22.788477897644043,
+        -2.579583615064621,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        95908.41293334961,
+        -55372.748374938965,
+        0.0
+      ],
+      "kineticEnergyJ": 613228.2466994104,
+      "gravitationalPotentialEnergyJ": -253057.15263783932,
+      "mechanicalEnergyJ": 360171.09406157106,
+      "maxSpeedMPerS": 11.074549622439825
+    },
+    {
+      "timeSeconds": 4.800000000000001,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        23.75776481628418,
+        -3.139201819896698,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        97949.01847839355,
+        -56550.893783569336,
+        0.0
+      ],
+      "kineticEnergyJ": 639600.6904300612,
+      "gravitationalPotentialEnergyJ": -307955.6985318661,
+      "mechanicalEnergyJ": 331644.9918981951,
+      "maxSpeedMPerS": 11.31017851698249
+    },
+    {
+      "timeSeconds": 4.9,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        24.747458457946777,
+        -3.710601508617401,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        99989.6240234375,
+        -57729.03919219971,
+        0.0
+      ],
+      "kineticEnergyJ": 666528.343920146,
+      "gravitationalPotentialEnergyJ": -364010.00799536705,
+      "mechanicalEnergyJ": 302518.33592477895,
+      "maxSpeedMPerS": 11.545807411525155
+    },
+    {
+      "timeSeconds": 5.0,
+      "totalMassKg": 10000.0,
+      "centerOfMassM": [
+        25.75755786895752,
+        -4.293782472610474,
+        0.0
+      ],
+      "momentumKgMPerS": [
+        102030.22956848145,
+        -58907.179832458496,
+        0.0
+      ],
+      "kineticEnergyJ": 694011.1790805315,
+      "gravitationalPotentialEnergyJ": -421220.06056308746,
+      "mechanicalEnergyJ": 272791.118517444,
+      "maxSpeedMPerS": 11.781436067649237
+    }
+  ],
+  "intervalDiagnostics": [
+    {
+      "startTimeSeconds": 0.0,
+      "endTimeSeconds": 0.1,
+      "rmsPositionVelocityResidualM": 5.912494598424263e-07,
+      "maxPositionVelocityResidualM": 8.257515819147016e-07,
+      "worstNodeId": 6
+    },
+    {
+      "startTimeSeconds": 0.1,
+      "endTimeSeconds": 0.2,
+      "rmsPositionVelocityResidualM": 4.865748246685624e-07,
+      "maxPositionVelocityResidualM": 5.692263080147084e-07,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 0.2,
+      "endTimeSeconds": 0.30000000000000004,
+      "rmsPositionVelocityResidualM": 5.048305812302618e-07,
+      "maxPositionVelocityResidualM": 6.417471865297131e-07,
+      "worstNodeId": 2
+    },
+    {
+      "startTimeSeconds": 0.30000000000000004,
+      "endTimeSeconds": 0.4,
+      "rmsPositionVelocityResidualM": 5.855227321578162e-08,
+      "maxPositionVelocityResidualM": 5.855227322107933e-08,
+      "worstNodeId": 5
+    },
+    {
+      "startTimeSeconds": 0.4,
+      "endTimeSeconds": 0.5,
+      "rmsPositionVelocityResidualM": 2.0505752081034722e-07,
+      "maxPositionVelocityResidualM": 2.101644899102197e-07,
+      "worstNodeId": 2
+    },
+    {
+      "startTimeSeconds": 0.5,
+      "endTimeSeconds": 0.6000000000000001,
+      "rmsPositionVelocityResidualM": 4.814644079739552e-07,
+      "maxPositionVelocityResidualM": 5.056655864557337e-07,
+      "worstNodeId": 2
+    },
+    {
+      "startTimeSeconds": 0.6000000000000001,
+      "endTimeSeconds": 0.7000000000000001,
+      "rmsPositionVelocityResidualM": 2.414720998625788e-07,
+      "maxPositionVelocityResidualM": 2.414723860976414e-07,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 0.7000000000000001,
+      "endTimeSeconds": 0.8,
+      "rmsPositionVelocityResidualM": 5.3082445684663704e-08,
+      "maxPositionVelocityResidualM": 7.306129145019267e-08,
+      "worstNodeId": 2
+    },
+    {
+      "startTimeSeconds": 0.8,
+      "endTimeSeconds": 0.9,
+      "rmsPositionVelocityResidualM": 2.749900192093341e-07,
+      "maxPositionVelocityResidualM": 2.757963014172365e-07,
+      "worstNodeId": 2
+    },
+    {
+      "startTimeSeconds": 0.9,
+      "endTimeSeconds": 1.0,
+      "rmsPositionVelocityResidualM": 4.798821737277133e-07,
+      "maxPositionVelocityResidualM": 5.305148232213104e-07,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 1.0,
+      "endTimeSeconds": 1.1,
+      "rmsPositionVelocityResidualM": 1.703757355017128e-07,
+      "maxPositionVelocityResidualM": 1.7357134571029414e-07,
+      "worstNodeId": 2
+    },
+    {
+      "startTimeSeconds": 1.1,
+      "endTimeSeconds": 1.2000000000000002,
+      "rmsPositionVelocityResidualM": 1.1499989859098036e-07,
+      "maxPositionVelocityResidualM": 1.222985061398095e-07,
+      "worstNodeId": 2
+    },
+    {
+      "startTimeSeconds": 1.2000000000000002,
+      "endTimeSeconds": 1.3,
+      "rmsPositionVelocityResidualM": 5.05199911615731e-07,
+      "maxPositionVelocityResidualM": 6.195443371658499e-07,
+      "worstNodeId": 2
+    },
+    {
+      "startTimeSeconds": 1.3,
+      "endTimeSeconds": 1.4000000000000001,
+      "rmsPositionVelocityResidualM": 4.969755073412298e-07,
+      "maxPositionVelocityResidualM": 6.077628163863472e-07,
+      "worstNodeId": 2
+    },
+    {
+      "startTimeSeconds": 1.4000000000000001,
+      "endTimeSeconds": 1.5,
+      "rmsPositionVelocityResidualM": 1.685873937609595e-07,
+      "maxPositionVelocityResidualM": 2.1324805955355833e-07,
+      "worstNodeId": 2
+    },
+    {
+      "startTimeSeconds": 1.5,
+      "endTimeSeconds": 1.6,
+      "rmsPositionVelocityResidualM": 2.1892032233347405e-07,
+      "maxPositionVelocityResidualM": 3.1590461746500154e-07,
+      "worstNodeId": 2
+    },
+    {
+      "startTimeSeconds": 1.6,
+      "endTimeSeconds": 1.7000000000000002,
+      "rmsPositionVelocityResidualM": 4.27162000244558e-07,
+      "maxPositionVelocityResidualM": 5.428932923881818e-07,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 1.7000000000000002,
+      "endTimeSeconds": 1.8,
+      "rmsPositionVelocityResidualM": 2.6788955962781313e-07,
+      "maxPositionVelocityResidualM": 2.8335724610790155e-07,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 1.8,
+      "endTimeSeconds": 1.9000000000000001,
+      "rmsPositionVelocityResidualM": 1.215700984346088e-07,
+      "maxPositionVelocityResidualM": 1.215700984346088e-07,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 1.9000000000000001,
+      "endTimeSeconds": 2.0,
+      "rmsPositionVelocityResidualM": 2.7957056503682766e-07,
+      "maxPositionVelocityResidualM": 2.9442522557297556e-07,
+      "worstNodeId": 2
+    },
+    {
+      "startTimeSeconds": 2.0,
+      "endTimeSeconds": 2.1,
+      "rmsPositionVelocityResidualM": 2.3752282675943537e-07,
+      "maxPositionVelocityResidualM": 4.6735515096762694e-07,
+      "worstNodeId": 5
+    },
+    {
+      "startTimeSeconds": 2.1,
+      "endTimeSeconds": 2.2,
+      "rmsPositionVelocityResidualM": 4.95687076583509e-07,
+      "maxPositionVelocityResidualM": 7.879544669300479e-07,
+      "worstNodeId": 5
+    },
+    {
+      "startTimeSeconds": 2.2,
+      "endTimeSeconds": 2.3000000000000003,
+      "rmsPositionVelocityResidualM": 4.554980559239253e-07,
+      "maxPositionVelocityResidualM": 9.063042551928802e-07,
+      "worstNodeId": 5
+    },
+    {
+      "startTimeSeconds": 2.3000000000000003,
+      "endTimeSeconds": 2.4000000000000004,
+      "rmsPositionVelocityResidualM": 3.2450336440075543e-07,
+      "maxPositionVelocityResidualM": 4.131251205687985e-07,
+      "worstNodeId": 5
+    },
+    {
+      "startTimeSeconds": 2.4000000000000004,
+      "endTimeSeconds": 2.5,
+      "rmsPositionVelocityResidualM": 1.2672121233477568e-07,
+      "maxPositionVelocityResidualM": 1.2672121233477568e-07,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 2.5,
+      "endTimeSeconds": 2.6,
+      "rmsPositionVelocityResidualM": 3.253780378326831e-07,
+      "maxPositionVelocityResidualM": 5.870376703293591e-07,
+      "worstNodeId": 6
+    },
+    {
+      "startTimeSeconds": 2.6,
+      "endTimeSeconds": 2.7,
+      "rmsPositionVelocityResidualM": 2.910269641561828e-07,
+      "maxPositionVelocityResidualM": 3.0994415225386124e-07,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 2.7,
+      "endTimeSeconds": 2.8000000000000003,
+      "rmsPositionVelocityResidualM": 3.3822681848613034e-07,
+      "maxPositionVelocityResidualM": 4.6552715811949584e-07,
+      "worstNodeId": 2
+    },
+    {
+      "startTimeSeconds": 2.8000000000000003,
+      "endTimeSeconds": 2.9000000000000004,
+      "rmsPositionVelocityResidualM": 2.843585118061186e-07,
+      "maxPositionVelocityResidualM": 2.8435851227154827e-07,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 2.9000000000000004,
+      "endTimeSeconds": 3.0,
+      "rmsPositionVelocityResidualM": 7.633118681198379e-08,
+      "maxPositionVelocityResidualM": 7.633118681198379e-08,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 3.0,
+      "endTimeSeconds": 3.1,
+      "rmsPositionVelocityResidualM": 3.7318410534251707e-07,
+      "maxPositionVelocityResidualM": 3.844384076429343e-07,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 3.1,
+      "endTimeSeconds": 3.2,
+      "rmsPositionVelocityResidualM": 3.501994799995714e-07,
+      "maxPositionVelocityResidualM": 3.9049003903137064e-07,
+      "worstNodeId": 2
+    },
+    {
+      "startTimeSeconds": 3.2,
+      "endTimeSeconds": 3.3000000000000003,
+      "rmsPositionVelocityResidualM": 1.9110702923380136e-07,
+      "maxPositionVelocityResidualM": 2.6035701849205014e-07,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 3.3000000000000003,
+      "endTimeSeconds": 3.4000000000000004,
+      "rmsPositionVelocityResidualM": 2.2837214582335173e-07,
+      "maxPositionVelocityResidualM": 3.1472155536780916e-07,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 3.4000000000000004,
+      "endTimeSeconds": 3.5,
+      "rmsPositionVelocityResidualM": 4.94969835414122e-07,
+      "maxPositionVelocityResidualM": 5.442005287288058e-07,
+      "worstNodeId": 5
+    },
+    {
+      "startTimeSeconds": 3.5,
+      "endTimeSeconds": 3.6,
+      "rmsPositionVelocityResidualM": 5.663382304717538e-07,
+      "maxPositionVelocityResidualM": 7.662848803129135e-07,
+      "worstNodeId": 2
+    },
+    {
+      "startTimeSeconds": 3.6,
+      "endTimeSeconds": 3.7,
+      "rmsPositionVelocityResidualM": 6.234315327507856e-07,
+      "maxPositionVelocityResidualM": 8.743820576261191e-07,
+      "worstNodeId": 6
+    },
+    {
+      "startTimeSeconds": 3.7,
+      "endTimeSeconds": 3.8000000000000003,
+      "rmsPositionVelocityResidualM": 7.474384434868304e-07,
+      "maxPositionVelocityResidualM": 1.3370585346036556e-06,
+      "worstNodeId": 6
+    },
+    {
+      "startTimeSeconds": 3.8000000000000003,
+      "endTimeSeconds": 3.9000000000000004,
+      "rmsPositionVelocityResidualM": 4.225208423746005e-07,
+      "maxPositionVelocityResidualM": 6.447228096671257e-07,
+      "worstNodeId": 2
+    },
+    {
+      "startTimeSeconds": 3.9000000000000004,
+      "endTimeSeconds": 4.0,
+      "rmsPositionVelocityResidualM": 7.114099032246936e-07,
+      "maxPositionVelocityResidualM": 1.0014689006192553e-06,
+      "worstNodeId": 2
+    },
+    {
+      "startTimeSeconds": 4.0,
+      "endTimeSeconds": 4.1000000000000005,
+      "rmsPositionVelocityResidualM": 8.597918395055761e-07,
+      "maxPositionVelocityResidualM": 1.1920928999487046e-06,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 4.1000000000000005,
+      "endTimeSeconds": 4.2,
+      "rmsPositionVelocityResidualM": 4.296480870486168e-07,
+      "maxPositionVelocityResidualM": 4.3008634083035494e-07,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 4.2,
+      "endTimeSeconds": 4.3,
+      "rmsPositionVelocityResidualM": 9.643944872100973e-07,
+      "maxPositionVelocityResidualM": 1.0967902527218953e-06,
+      "worstNodeId": 5
+    },
+    {
+      "startTimeSeconds": 4.3,
+      "endTimeSeconds": 4.4,
+      "rmsPositionVelocityResidualM": 1.479648582639982e-07,
+      "maxPositionVelocityResidualM": 1.599360479700424e-07,
+      "worstNodeId": 2
+    },
+    {
+      "startTimeSeconds": 4.4,
+      "endTimeSeconds": 4.5,
+      "rmsPositionVelocityResidualM": 1.0486013926646555e-06,
+      "maxPositionVelocityResidualM": 1.3832901281033216e-06,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 4.5,
+      "endTimeSeconds": 4.6000000000000005,
+      "rmsPositionVelocityResidualM": 1.0035022118201514e-06,
+      "maxPositionVelocityResidualM": 1.2425817289073628e-06,
+      "worstNodeId": 5
+    },
+    {
+      "startTimeSeconds": 4.6000000000000005,
+      "endTimeSeconds": 4.7,
+      "rmsPositionVelocityResidualM": 7.633119201361501e-08,
+      "maxPositionVelocityResidualM": 1.283923372634165e-07,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 4.7,
+      "endTimeSeconds": 4.800000000000001,
+      "rmsPositionVelocityResidualM": 9.915891489263362e-07,
+      "maxPositionVelocityResidualM": 1.211250863576639e-06,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 4.800000000000001,
+      "endTimeSeconds": 4.9,
+      "rmsPositionVelocityResidualM": 1.0460572719397855e-06,
+      "maxPositionVelocityResidualM": 1.3830332803173256e-06,
+      "worstNodeId": 1
+    },
+    {
+      "startTimeSeconds": 4.9,
+      "endTimeSeconds": 5.0,
+      "rmsPositionVelocityResidualM": 2.198110701272675e-07,
+      "maxPositionVelocityResidualM": 2.384185796788785e-07,
+      "worstNodeId": 2
+    }
+  ],
+  "solverEnergyDiagnostics": null,
+  "limitations": [
+    "Checks use the actual float32 replay values and constant nodal masses.",
+    "Trapezoidal residual includes output sampling/truncation error; a small residual is not physical validation.",
+    "Nodal kinetic energy omits rotational/internal degrees of freedom and can differ from solver global energy.",
+    "Gravity must be stated in Unity axes. Potential energy has an arbitrary origin.",
+    "Material behavior, contacts, pore pressure, mesh convergence, erosion and solver stability require solver/model review.",
+    "No position, velocity, energy or mass is altered to force conservation."
+  ]
+}

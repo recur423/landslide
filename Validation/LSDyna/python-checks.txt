@@ -1,0 +1,20 @@
+test_analytic_fixture_obeys_acceleration_and_friction_work (test_convert_lsdyna.ConversionTests.test_analytic_fixture_obeys_acceleration_and_friction_work) ... ok
+test_cli_rejects_missing_unit_declaration (test_convert_lsdyna.ConversionTests.test_cli_rejects_missing_unit_declaration) ... ok
+test_duplicate_headers_and_empty_input_are_rejected (test_convert_lsdyna.ConversionTests.test_duplicate_headers_and_empty_input_are_rejected) ... ok
+test_energy_diagnostics_do_not_double_count_hourglass_or_claim_conservation (test_convert_lsdyna.ConversionTests.test_energy_diagnostics_do_not_double_count_hourglass_or_claim_conservation) ... ok
+test_existing_output_is_never_overwritten (test_convert_lsdyna.ConversionTests.test_existing_output_is_never_overwritten) ... ok
+test_inconsistent_velocity_is_reported_without_modifying_trajectory (test_convert_lsdyna.ConversionTests.test_inconsistent_velocity_is_reported_without_modifying_trajectory) ... ok
+test_invalid_inputs_leave_no_partial_output (test_convert_lsdyna.ConversionTests.test_invalid_inputs_leave_no_partial_output) ... ok
+test_large_coordinate_origin_is_subtracted_before_float32 (test_convert_lsdyna.ConversionTests.test_large_coordinate_origin_is_subtracted_before_float32) ... ok
+test_mapping_units_origin_order_topology_and_provenance (test_convert_lsdyna.ConversionTests.test_mapping_units_origin_order_topology_and_provenance) ... ok
+test_missing_or_invalid_required_metadata_is_rejected (test_convert_lsdyna.ConversionTests.test_missing_or_invalid_required_metadata_is_rejected) ... ok
+test_negative_time_and_single_frame_are_valid_but_not_time_validated (test_convert_lsdyna.ConversionTests.test_negative_time_and_single_frame_are_valid_but_not_time_validated) ... ok
+test_reader_resource_limits_reject_atomically (test_convert_lsdyna.ConversionTests.test_reader_resource_limits_reject_atomically) ... ok
+test_signed_permutation_transforms_velocity_without_translation (test_convert_lsdyna.ConversionTests.test_signed_permutation_transforms_velocity_without_translation) ... ok
+test_small_step_at_large_time_keeps_double_precision (test_convert_lsdyna.ConversionTests.test_small_step_at_large_time_keeps_double_precision) ... ok
+test_topology_rejects_unknown_repeated_and_duplicate_nodes (test_convert_lsdyna.ConversionTests.test_topology_rejects_unknown_repeated_and_duplicate_nodes) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.397s
+
+OK

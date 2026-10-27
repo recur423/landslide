@@ -1,0 +1,4 @@
+__pycache__/
+.test-*/
+.lsdyna-convert-*/
+.analytic-input-*/

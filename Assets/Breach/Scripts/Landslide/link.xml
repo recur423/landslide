@@ -1,0 +1,7 @@
+<linker>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="SimulationManager" preserve="fields" />
+    <type fullname="LandslideEvent" preserve="all" />
+    <type fullname="LandslideLateStageVisuals" preserve="all" />
+  </assembly>
+</linker>
