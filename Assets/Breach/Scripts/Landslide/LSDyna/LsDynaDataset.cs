@@ -130,6 +130,8 @@ public sealed class LsDynaDataset
         bool analytic = m.solver == "ANALYTIC" && m.provenanceKind == "analytic-verification";
         if (!solverExport && !(allowAnalytic && analytic))
             throw new InvalidDataException("A genuine LS-DYNA solver-export package is required. ANALYTIC verification data must be explicitly enabled and is not solver output.");
+        if (analytic && m.siteCaseReport != null)
+            throw new InvalidDataException("Analytical verification data cannot carry a site case report.");
         if (m.coordinateConvention != "Unity-local-m" || m.timeUnit != "s")
             throw new InvalidDataException("Convert coordinates and units first: expected Unity-local-m and seconds (s).");
         if (string.IsNullOrWhiteSpace(m.sourceDescription) || string.IsNullOrWhiteSpace(m.validationSummary))

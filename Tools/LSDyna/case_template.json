@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "caseId": null,
+  "horizontalCrs": null,
+  "verticalDatum": null,
+  "lengthUnitToM": null,
+  "localOriginSourceUnits": null,
+  "eventStartSeconds": null,
+  "surfaceGridCsv": null,
+  "layers": [],
+  "terrainFeaturesCsv": null,
+  "rainfallCsv": null,
+  "cellZonesCsv": null,
+  "hydroBudgetCsv": null,
+  "slipPatchesCsv": null,
+  "evidence": {
+    "preEventSurvey": null,
+    "geologicInvestigation": null,
+    "rainGauge": null,
+    "groundwaterAndMoisture": null,
+    "hydraulicTesting": null,
+    "strengthTesting": null,
+    "gravityEquilibrium": null,
+    "seepageModel": null,
+    "stabilityModel": null,
+    "dynaModel": null,
+    "dynaResults": null,
+    "fieldValidation": null
+  }
+}

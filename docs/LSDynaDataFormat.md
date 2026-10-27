@@ -2,6 +2,8 @@
 
 本流程将**已经求解、已经导出的节点时序**转换成 Unity 动画。它不运行 LS-DYNA，也不直接解析 `d3plot`、`binout`、`nodout` 或任意版本的 LS-PrePost 原始 CSV。
 
+若模型由降雨触发，可先按[降雨场地准备说明](RainfallCasePreparation.md)建立有来源的三维地形、土层与雨强输入，并审计外部水文和稳定性结果。转换时可用 `--site-case-report` 附加其 `case_report.json`；报告只证明准备文件与数据包的关联及完整性，不证明渗流、孔压或滑坡求解正确。
+
 本仓库原有 `SceneData/Hunnedalen/Frames/Frame_*.bin` 来自 RAMMS，不能重新命名为 LS-DYNA 结果。随项目提供的 `Assets/StreamingAssets/LSDyna/Verification` 是**解析斜面滑块验证算例**，标记为 `ANALYTIC / analytic-verification`，不能当作 Hunnedalen 滑坡预测或 LS-DYNA 求解成果。
 
 ## 从实际求解到动画
@@ -82,6 +84,8 @@ python Tools/LSDyna/convert_lsdyna.py --input D:/SimulationExport/nodes.csv --tr
 
 没有三角网格或能量文件时，省略对应的 `--triangles` 或 `--energy`。来源说明不能为空；应填写真实作业、版本、导出方式及模型标识。工具中的 `LS-DYNA` 标签表示提供者声明的来源，SHA-256 证明文件一致性，不证明它确实经过求解。
 
+若已经用场地准备工具生成 `case_report.json`，可在真实结果转换命令末尾添加 `--site-case-report D:/Survey/prepared-case/case_report.json`。转换器复制该报告，并在 manifest 中记录案例 ID、缺项数和哈希；Unity 导入与加载时复核报告完整性。报告状态始终为 `prepared-not-solved`，物理可信度仍须独立验证。解析斜面夹具不接受场地报告。
+
 `--output` 必须是尚不存在的目录。转换完成全部验证后才发布整套结果；失败时不会留下半套目标数据，也不会覆盖现有结果。需要修订结果时使用新的目录名。
 
 生成一个新的解析验证副本：
@@ -118,6 +122,7 @@ python -B -m unittest discover -s Tools/LSDyna/tests -v
 | `validationSummary` | 转换器检查摘要，不是物理可信度认证 |
 | `unitConversion` / `sourceOrigin` / `axisMapping` / `unityOffsetM` | 可追溯的变换参数 |
 | `gravityMPerS2` | 物理诊断使用的 Unity 重力向量 |
+| `siteCaseReport`（可选） | 降雨场地报告的文件名、SHA-256、案例 ID、缺项数和 `prepared-not-solved` 状态；不是验证通过标志 |
 
 每个 `.bytes` 文件全部采用小端序，长度必须等于 `12 + 24 × 节点数` 字节：
 

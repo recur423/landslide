@@ -296,6 +296,8 @@ def convert(input_csv, output, *, source_description, length_to_m, time_to_s, ma
     site_case = None
     if site_case_report is not None:
         site_case_report = Path(site_case_report)
+        if site_case_report.stat().st_size > MAX_MANIFEST_BYTES:
+            raise DataError("site case report exceeds Unity reader limit of {} bytes".format(MAX_MANIFEST_BYTES))
         with site_case_report.open("r", encoding="utf-8") as stream:
             report = json.load(stream)
         if (not isinstance(report, dict) or report.get("schemaVersion") != 1 or
@@ -405,6 +407,8 @@ def convert(input_csv, output, *, source_description, length_to_m, time_to_s, ma
                 raise DataError("{} changed during conversion".format(label))
         if site_case_report is not None:
             shutil.copyfile(site_case_report, staging / "site_case_report.json")
+            if sha256(staging / "site_case_report.json") != hashes["siteCaseReport"]:
+                raise DataError("site case report changed while being copied")
         write_json(staging / "validation.json", validation)
         write_json(staging / "dataset.json", manifest)
         if (staging / "dataset.json").stat().st_size > MAX_MANIFEST_BYTES:
